@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__section__one img{
+    width: 200px;
+    height: 200px;
+}
+.header__section__three_image{
+    width: 30px;
+    height: 30px;
+    max-height: 25px;
+}
+.header__section__three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-right: 10px;
+    position: relative;
+    left: 200px;
+}
+.header__section__three div{
+    margin: 20px
+}
+.header__section__three p{
+    margin: 0px;
+}
+.header__section__two{
+    text-align: center;
+}
+.header__section__two__sub{
+    position: relative;
+    right: 40px;
+    margin: 5px;
+}
+.navbar__section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #79B845;
+    height: 50px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.navbar__section__one{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 15px;
+    gap: 20px;
+}
+.navbar__section__two{
+    display: flex;
+    margin-top: 7px;
+    margin-right: 10px;
+    gap: 20px;
+}
+.navbar__section__two__btn1:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.navbar__section__two__btn2:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.navbar__section__two button{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+.image img{
+    width: 100%;
+}
+.search__bar{
+    padding: 20px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    position: relative;
+    left: 400px;
+    bottom: 70px;
+}
+.search__bar__btn1{
+    background-color: #74B642;
+    padding: 8px;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+.search__bar__btn2{
+    background-color: #43C4C0;
+    padding: 8px;
+    color: white;
+    border: none;
+}
+.search__bar input{
+    height: 30px;
+    width: 250px;
+    margin-right: 20px;
+}
+.sale__image__section{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+.sale__image__section__imagebox{
+    height: 150px;
+    width: 20%;
+    border: grey 2px solid;
+}
+.sale__image__section__imagebox img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+}
+.sale__image__section__imagebox p{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 100
+}
+.sale__image__section__imagebox button{
+    position: relative;
+    bottom: 70px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    left: 40px;
+    cursor: pointer;
+}
+.sale__image__section__imagebox__btn1{
+    background-color: #01B1EA;
+    border: #01B1EA;
+}
+.sale__image__section__imagebox__btn2{
+    background-color: #81B016;
+    border: #81B016;
+}
+.paragraph{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #E7E7E7;
+}
+.paragraph h2{
+    margin: 5px;
+    padding: 20px;
+}
+.paragraph__special{
+    padding-bottom: 20px;
+}
+.paragraph__btn1{
+    background-color: red;
+    border: none;
+    padding: 10px;
+}
+.paragraph__btn2{
+    background-color: #81B016;
+    border: none;
+    padding: 10px;
+}
+.footer__section{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 20px;
+}
+.footer__section__one__social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.footer__section__one__social__images img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.footer__section__special{
+    margin-left: 78px;
+}
+.sign__in{
+    font-size: 20px;
+    text-align: center;
+    border: 1px black solid;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 2000px;
+    left: 40%;
+    background-color: #74B642;
+    display: none;
+}
+#input1, #input2{
+    padding: 7px;
+    border: transparent;
+    margin-top: 10px;
+}
+.sign__in button{
+    padding: 10px;
+    background-color: red;
+    border: none;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
